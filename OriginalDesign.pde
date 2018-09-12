@@ -34,7 +34,7 @@ void LeToucan()
 {
   background(132,112,255);
   fill(255,255,0);
-  arc(X,400,100,100,0,Mouth,PIE);
+  arc(X,400,100,100,0,Mouth,int(PI));
 
   if(X > 1050)
   {
