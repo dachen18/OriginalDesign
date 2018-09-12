@@ -21,14 +21,6 @@ void setup()
   size(1000,600);
 }
 
-void draw()
-{
-  LeToucan();
-  Dirt();
-  Grass();
-  Cluds();
-}
-
 void LeToucan()
 {
   background(132,112,255);
@@ -112,4 +104,10 @@ void Cluds()
   }
 }
 
-
+void draw()
+{
+  LeToucan();
+  Dirt();
+  Grass();
+  Cluds();
+}
